@@ -1,0 +1,51 @@
+{
+  "url": "https://www.anz.com.au/",
+  "browserOptions": {
+    "width": 1280,
+    "disableJS": false,
+    "adBlocker": true,
+    "gdprBlocker": true,
+    "delay": 0,
+    "screenshot": false
+  },
+  "autoDetect": true,
+  "template": {
+    "raw": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/img[1]\n  - /html[1]/body[1]/div[5]\n  - /html[1]/body[1]/main[1]/div[1]/div[1]\n  /html[1]/body[1]/main[1]/div[1]/div[2]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[1]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[2]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[3]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[4]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[5]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[6]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[7]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[8]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[9]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[10]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[11]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[12]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[13]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[14]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[15]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[16]\n  /html[1]/body[1]/div[6]\n  - /html[1]/body[1]/div[6]/footer[1]/div[2]\n  - /html[1]/body[1]/div[6]/footer[1]/div[3]\n  - /html[1]/body[1]/div[6]/footer[1]/div[4]",
+    "hash": -1544366102
+  },
+  "pageHeight": 5828,
+  "mapping": [
+    {
+      "id": "footer-1",
+      "path": "/footer",
+      "sections": [
+        {
+          "id": "footer-1-1",
+          "blocks": [
+            {
+              "id": "box-id--602998968",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 55,
+              "xpath": "/html[1]/body[1]/div[6]/footer[1]/div[4]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[6]/footer[1]/div[4]",
+                  "xpathWithDetails": "id(\"footer_skip\")/div[@class=\"rowcontainer__row\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 5604,
+              "mapping": "footer",
+              "customBlockName": "aifooter-govnk7-602998968"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

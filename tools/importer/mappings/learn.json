@@ -1,0 +1,417 @@
+{
+  "url": "https://www.anz.com.au/learn/",
+  "browserOptions": {
+    "width": 1280,
+    "disableJS": false,
+    "adBlocker": true,
+    "gdprBlocker": true,
+    "delay": 0,
+    "screenshot": false
+  },
+  "autoDetect": true,
+  "template": {
+    "raw": "/html[1]/body[1]/div[5]\n  - /html[1]/body[1]/div[5]/header[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[5]/header[1]/div[1]/div[3]/div[1]\n  /html[1]/body[1]/main[1]/div[1]/div[2]/div[1]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]\n  /html[1]/body[1]/main[1]/div[1]/div[2]/div[2]\n  /html[1]/body[1]/main[1]/div[1]/div[2]/div[3]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]\n  - /html[1]/body[1]/div[9]\n  /html[1]/body[1]/main[1]/div[1]/div[2]/div[4]\n  /html[1]/body[1]/main[1]/div[1]/div[2]/div[5]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]\n  /html[1]/body[1]/main[1]/div[1]/div[2]/div[6]\n  /html[1]/body[1]/main[1]/div[1]/div[2]/div[7]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[7]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[7]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[7]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]\n  /html[1]/body[1]/main[1]/div[1]/div[2]/div[8]\n  /html[1]/body[1]/main[1]/div[1]/div[2]/div[9]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[9]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[9]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[9]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]\n  /html[1]/body[1]/main[1]/div[1]/div[2]/div[10]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[10]/div[1]/div[1]/div[2]/div[1]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[10]/div[1]/div[1]/div[2]/div[2]\n  /html[1]/body[1]/div[6]\n  - /html[1]/body[1]/div[6]/footer[1]/div[2]\n  - /html[1]/body[1]/div[6]/footer[1]/div[3]\n  - /html[1]/body[1]/div[6]/footer[1]/div[4]",
+    "hash": -2074195825
+  },
+  "pageHeight": 6145,
+  "mapping": [
+    {
+      "id": 2,
+      "path": "/learn/index",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id-1401828353",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1134,
+              "height": 64,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 73,
+              "y": 109,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-e2c05q-1401828353"
+            },
+            {
+              "id": "box-id-1401828384",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1134,
+              "height": 391,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--foureight box--white padding-top--40px padding-bottom--40px container--two-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__main none\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--foureight box--white padding-top--40px padding-bottom--40px container--two-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__aside none\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 73,
+              "y": 173,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-e2c05q-1401828384"
+            },
+            {
+              "id": "box-id-423065827",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 22,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[2]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 604,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-e2c05q-423065827"
+            },
+            {
+              "id": "box-id--1741538077",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 358,
+              "height": 188,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 73,
+              "y": 676,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-e2c05q-1741538077"
+            },
+            {
+              "id": "box-id-166305635",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 358,
+              "height": 350,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 461,
+              "y": 676,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-e2c05q-166305635"
+            },
+            {
+              "id": "box-id-166305666",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 358,
+              "height": 320,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 461,
+              "y": 1044,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-e2c05q-166305666"
+            },
+            {
+              "id": "box-id-166305697",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 358,
+              "height": 354,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 461,
+              "y": 1383,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-e2c05q-166305697"
+            },
+            {
+              "id": "box-id--1641148828",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 358,
+              "height": 350,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 849,
+              "y": 676,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-e2c05q-1641148828"
+            },
+            {
+              "id": "box-id--1641148797",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 358,
+              "height": 320,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[2]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 849,
+              "y": 1044,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-e2c05q-1641148797"
+            },
+            {
+              "id": "box-id--1102402054",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 20,
+              "xpath": "/html[1]/body[1]/div[9]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 803,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-e2c05q-1102402054"
+            },
+            {
+              "id": "box-id-423065889",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 22,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[4]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 1796,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-e2c05q-423065889"
+            },
+            {
+              "id": "box-id-423065920",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 1158,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[5]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--four box--white padding-top--40px padding-bottom--40px container--three-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__main\"]/div[@class=\"aem__component clearfix\"]/div[@class=\"container__item container__main__element none\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--four box--white padding-top--40px padding-bottom--40px container--three-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__main\"]/div[@class=\"aem__component clearfix\"]/div[@class=\"container__item container__main__element none\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--four box--white padding-top--40px padding-bottom--40px container--three-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__main\"]/div[@class=\"aem__component clearfix\"]/div[@class=\"container__item container__main__element none\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 3,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 1828,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-e2c05q-423065920"
+            },
+            {
+              "id": "box-id-423065951",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 22,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[6]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 2987,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-e2c05q-423065951"
+            },
+            {
+              "id": "box-id-423065982",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 1338,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[7]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[7]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--four box--white padding-top--40px padding-bottom--40px container--three-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__main\"]/div[@class=\"aem__component clearfix\"]/div[@class=\"container__item container__main__element none\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[7]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--four box--white padding-top--40px padding-bottom--40px container--three-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__main\"]/div[@class=\"aem__component clearfix\"]/div[@class=\"container__item container__main__element none\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[7]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--four box--white padding-top--40px padding-bottom--40px container--three-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__main\"]/div[@class=\"aem__component clearfix\"]/div[@class=\"container__item container__main__element none\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 3,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 3019,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-e2c05q-423065982"
+            },
+            {
+              "id": "box-id-423066013",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 22,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[8]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 4358,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-e2c05q-423066013"
+            },
+            {
+              "id": "box-id-423066044",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 822,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[9]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[9]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--four box--white padding-top--40px padding-bottom--40px container--three-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__main\"]/div[@class=\"aem__component clearfix\"]/div[@class=\"container__item container__main__element none\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[9]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--four box--white padding-top--40px padding-bottom--40px container--three-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__main\"]/div[@class=\"aem__component clearfix\"]/div[@class=\"container__item container__main__element none\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[9]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--four box--white padding-top--40px padding-bottom--40px container--three-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__main\"]/div[@class=\"aem__component clearfix\"]/div[@class=\"container__item container__main__element none\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 3,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 4390,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-e2c05q-423066044"
+            },
+            {
+              "id": "box-id-230136486",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 173,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[10]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[10]/div[1]/div[1]/div[2]/div[1]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--ninethree box--white padding-top--50px padding-bottom--35px container--two-columns\"]/div[@class=\"grid\"]/div[@class=\"border border--closed box--grayscale-93 clearfix\"]/div[@class=\"container__items container__main none\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[10]/div[1]/div[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--ninethree box--white padding-top--50px padding-bottom--35px container--two-columns\"]/div[@class=\"grid\"]/div[@class=\"border border--closed box--grayscale-93 clearfix\"]/div[@class=\"container__items container__aside none\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 5213,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-e2c05q-230136486"
+            },
+            {
+              "id": "box-id--602999030",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 356,
+              "xpath": "/html[1]/body[1]/div[6]/footer[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[6]/footer[1]/div[2]/div[1]/div[1]/div[2]/div[1]",
+                  "xpathWithDetails": "id(\"footer_skip\")/div[@class=\"rowcontainer\"]/div[@class=\"rowcontainer anz-component\"]/div[@class=\"grid\"]/div[@class=\"rowcontainer__row rowcontainer--column-4\"]/div[@class=\"rowcontainer__column\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[6]/footer[1]/div[2]/div[1]/div[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"footer_skip\")/div[@class=\"rowcontainer\"]/div[@class=\"rowcontainer anz-component\"]/div[@class=\"grid\"]/div[@class=\"rowcontainer__row rowcontainer--column-4\"]/div[@class=\"rowcontainer__column\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[6]/footer[1]/div[2]/div[1]/div[1]/div[2]/div[3]",
+                  "xpathWithDetails": "id(\"footer_skip\")/div[@class=\"rowcontainer\"]/div[@class=\"rowcontainer anz-component\"]/div[@class=\"grid\"]/div[@class=\"rowcontainer__row rowcontainer--column-4\"]/div[@class=\"rowcontainer__column\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[6]/footer[1]/div[2]/div[1]/div[1]/div[2]/div[4]",
+                  "xpathWithDetails": "id(\"footer_skip\")/div[@class=\"rowcontainer\"]/div[@class=\"rowcontainer anz-component\"]/div[@class=\"grid\"]/div[@class=\"rowcontainer__row rowcontainer--column-4\"]/div[@class=\"rowcontainer__column\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 4,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 5450,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-e2c05q-602999030"
+            },
+            {
+              "id": "box-id--602998999",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 116,
+              "xpath": "/html[1]/body[1]/div[6]/footer[1]/div[3]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[6]/footer[1]/div[3]/div[1]/div[1]/div[2]/div[1]",
+                  "xpathWithDetails": "id(\"footer_skip\")/div[@class=\"rowcontainer\"]/div[@class=\"rowcontainer anz-component\"]/div[@class=\"grid\"]/div[@class=\"rowcontainer__row rowcontainer--column-4\"]/div[@class=\"rowcontainer__column\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[6]/footer[1]/div[3]/div[1]/div[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"footer_skip\")/div[@class=\"rowcontainer\"]/div[@class=\"rowcontainer anz-component\"]/div[@class=\"grid\"]/div[@class=\"rowcontainer__row rowcontainer--column-4\"]/div[@class=\"rowcontainer__column\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 5806,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-e2c05q-602998999"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
