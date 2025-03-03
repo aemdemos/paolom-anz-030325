@@ -1,0 +1,40 @@
+{
+  "mappings": [
+    {
+      "path": "tools/importer/mappings/nav.json"
+    },
+    {
+      "path": "tools/importer/mappings/footer.json"
+    },
+    {
+      "path": "tools/importer/mappings/index.json"
+    },
+    {
+      "path": "tools/importer/mappings/personal.json"
+    },
+    {
+      "path": "tools/importer/mappings/business.json"
+    },
+    {
+      "path": "tools/importer/mappings/institutional.json"
+    },
+    {
+      "path": "tools/importer/mappings/learn.json"
+    },
+    {
+      "path": "tools/importer/mappings/about-us.json"
+    },
+    {
+      "path": "tools/importer/mappings/personal/financial-wellbeing/guides/how-to-nail-financial-literacy.json"
+    },
+    {
+      "path": "tools/importer/mappings/personal/home-loans/tips-and-guides/buying-and-settlement.json"
+    },
+    {
+      "path": "tools/importer/mappings/about-us/shareholders/adr.json"
+    },
+    {
+      "path": "tools/importer/mappings/support.json"
+    }
+  ]
+}

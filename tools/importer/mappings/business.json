@@ -1,0 +1,413 @@
+{
+  "url": "https://www.anz.com.au/business/",
+  "browserOptions": {
+    "width": 1280,
+    "disableJS": false,
+    "adBlocker": true,
+    "gdprBlocker": true,
+    "delay": 0,
+    "screenshot": false
+  },
+  "autoDetect": true,
+  "template": {
+    "raw": "/html[1]/body[1]/div[5]\n  - /html[1]/body[1]/div[5]/header[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[5]/header[1]/div[1]/div[3]/div[1]\n  /html[1]/body[1]/main[1]/div[1]/div[1]\n  - /html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]\n  /html[1]/body[1]/main[1]/div[1]/div[2]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[1]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[2]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[3]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[4]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[5]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[6]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[7]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[8]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[9]\n  /html[1]/body[1]/div[6]\n  - /html[1]/body[1]/div[6]/footer[1]/div[2]\n  - /html[1]/body[1]/div[6]/footer[1]/div[3]\n  - /html[1]/body[1]/div[6]/footer[1]/div[4]",
+    "hash": 283634950
+  },
+  "pageHeight": 4576,
+  "mapping": [
+    {
+      "id": 2,
+      "path": "/business/index",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id-916569762",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 462,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 1,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 0,
+              "mapping": "hero",
+              "customBlockName": "aihero-vxqm2w-916569762"
+            },
+            {
+              "id": "box-id-307849765",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 358,
+              "height": 352,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 73,
+              "y": 482,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-vxqm2w-307849765"
+            },
+            {
+              "id": "box-id-307849796",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 358,
+              "height": 352,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 461,
+              "y": 482,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-vxqm2w-307849796"
+            },
+            {
+              "id": "box-id-307849827",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 358,
+              "height": 352,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 849,
+              "y": 482,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-vxqm2w-307849827"
+            },
+            {
+              "id": "box-id--1102402054",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 20,
+              "xpath": "/html[1]/body[1]/div[9]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 803,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-vxqm2w-1102402054"
+            },
+            {
+              "id": "box-id-423065827",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 141,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--matchheight container--ninethree box--white padding-top--0px padding-bottom--30px container--two-columns\"]/div[@class=\"grid\"]/div[@class=\"border border--closed box--grayscale-93 clearfix\"]/div[@class=\"container__items container__main none\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--matchheight container--ninethree box--white padding-top--0px padding-bottom--30px container--two-columns\"]/div[@class=\"grid\"]/div[@class=\"border border--closed box--grayscale-93 clearfix\"]/div[@class=\"container__items container__aside none\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 855,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-vxqm2w-423065827"
+            },
+            {
+              "id": "box-id-423065858",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 492,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[3]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 1,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 996,
+              "mapping": "hero",
+              "customBlockName": "aihero-vxqm2w-423065858"
+            },
+            {
+              "id": "box-id-423065889",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 506,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[4]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[4]/div[1]/div[1]/div[2]/div[1]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--matchheight container--eightfour box--white padding-top--40px padding-bottom--40px container--two-columns smlimgtxt\"]/div[@class=\"grid\"]/div[@class=\"border none clearfix\"]/div[@class=\"container__items container__main none\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[4]/div[1]/div[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--matchheight container--eightfour box--white padding-top--40px padding-bottom--40px container--two-columns smlimgtxt\"]/div[@class=\"grid\"]/div[@class=\"border none clearfix\"]/div[@class=\"container__items container__aside none\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 1488,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-vxqm2w-423065889"
+            },
+            {
+              "id": "box-id-2085918981",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1134,
+              "height": 54,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 73,
+              "y": 2014,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-vxqm2w-2085918981"
+            },
+            {
+              "id": "box-id-2085919012",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1134,
+              "height": 310,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--four box--white padding-top--20px padding-bottom--20px container--three-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__main\"]/div[@class=\"aem__component clearfix\"]/div[@class=\"container__item container__main__element none\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--four box--white padding-top--20px padding-bottom--20px container--three-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__main\"]/div[@class=\"aem__component clearfix\"]/div[@class=\"container__item container__main__element none\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--four box--white padding-top--20px padding-bottom--20px container--three-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__main\"]/div[@class=\"aem__component clearfix\"]/div[@class=\"container__item container__main__element none\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 3,
+                "numRows": 1
+              },
+              "x": 73,
+              "y": 2068,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-vxqm2w-2085919012"
+            },
+            {
+              "id": "box-id-423065951",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 95,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[6]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 2398,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-vxqm2w-423065951"
+            },
+            {
+              "id": "box-id-423065982",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 304,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[7]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[7]/div[1]/div[1]/div[2]/div[1]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--foureight box--grayscale-93 padding-top--40px padding-bottom--40px container--two-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__main none\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[7]/div[1]/div[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--foureight box--grayscale-93 padding-top--40px padding-bottom--40px container--two-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__aside none\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 2493,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-vxqm2w-423065982"
+            },
+            {
+              "id": "box-id-1525245128",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1134,
+              "height": 64,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[8]/div[1]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 73,
+              "y": 2838,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-vxqm2w-1525245128"
+            },
+            {
+              "id": "box-id-1525245159",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1134,
+              "height": 271,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[8]/div[1]/div[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[8]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--four box--white padding-top--40px padding-bottom--40px container--three-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__main\"]/div[@class=\"aem__component clearfix\"]/div[@class=\"container__item container__main__element none\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[8]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--four box--white padding-top--40px padding-bottom--40px container--three-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__main\"]/div[@class=\"aem__component clearfix\"]/div[@class=\"container__item container__main__element none\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[8]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"main-container\")/div[@class=\"columns\"]/div[@class=\"container container--four box--white padding-top--40px padding-bottom--40px container--three-columns\"]/div[@class=\"grid\"]/div[@class=\"clearfix\"]/div[@class=\"container__items container__main\"]/div[@class=\"aem__component clearfix\"]/div[@class=\"container__item container__main__element none\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 3,
+                "numRows": 1
+              },
+              "x": 73,
+              "y": 2902,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-vxqm2w-1525245159"
+            },
+            {
+              "id": "box-id-171652937",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1134,
+              "height": 62,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 73,
+              "y": 3253,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-vxqm2w-171652937"
+            },
+            {
+              "id": "box-id-141248061",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1072,
+              "height": 160,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 104,
+              "y": 3355,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-vxqm2w-141248061"
+            },
+            {
+              "id": "box-id-141248092",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1072,
+              "height": 200,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 104,
+              "y": 3525,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-vxqm2w-141248092"
+            },
+            {
+              "id": "box-id--602999030",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 356,
+              "xpath": "/html[1]/body[1]/div[6]/footer[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[6]/footer[1]/div[2]/div[1]/div[1]/div[2]/div[1]",
+                  "xpathWithDetails": "id(\"footer_skip\")/div[@class=\"rowcontainer\"]/div[@class=\"rowcontainer anz-component\"]/div[@class=\"grid\"]/div[@class=\"rowcontainer__row rowcontainer--column-4\"]/div[@class=\"rowcontainer__column\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[6]/footer[1]/div[2]/div[1]/div[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"footer_skip\")/div[@class=\"rowcontainer\"]/div[@class=\"rowcontainer anz-component\"]/div[@class=\"grid\"]/div[@class=\"rowcontainer__row rowcontainer--column-4\"]/div[@class=\"rowcontainer__column\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[6]/footer[1]/div[2]/div[1]/div[1]/div[2]/div[3]",
+                  "xpathWithDetails": "id(\"footer_skip\")/div[@class=\"rowcontainer\"]/div[@class=\"rowcontainer anz-component\"]/div[@class=\"grid\"]/div[@class=\"rowcontainer__row rowcontainer--column-4\"]/div[@class=\"rowcontainer__column\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[6]/footer[1]/div[2]/div[1]/div[1]/div[2]/div[4]",
+                  "xpathWithDetails": "id(\"footer_skip\")/div[@class=\"rowcontainer\"]/div[@class=\"rowcontainer anz-component\"]/div[@class=\"grid\"]/div[@class=\"rowcontainer__row rowcontainer--column-4\"]/div[@class=\"rowcontainer__column\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 4,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 3881,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-vxqm2w-602999030"
+            },
+            {
+              "id": "box-id--602998999",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 116,
+              "xpath": "/html[1]/body[1]/div[6]/footer[1]/div[3]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[6]/footer[1]/div[3]/div[1]/div[1]/div[2]/div[1]",
+                  "xpathWithDetails": "id(\"footer_skip\")/div[@class=\"rowcontainer\"]/div[@class=\"rowcontainer anz-component\"]/div[@class=\"grid\"]/div[@class=\"rowcontainer__row rowcontainer--column-4\"]/div[@class=\"rowcontainer__column\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[6]/footer[1]/div[3]/div[1]/div[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"footer_skip\")/div[@class=\"rowcontainer\"]/div[@class=\"rowcontainer anz-component\"]/div[@class=\"grid\"]/div[@class=\"rowcontainer__row rowcontainer--column-4\"]/div[@class=\"rowcontainer__column\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 4237,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-vxqm2w-602998999"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

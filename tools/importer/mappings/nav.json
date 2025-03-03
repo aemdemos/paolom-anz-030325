@@ -1,0 +1,46 @@
+{
+  "url": "https://www.anz.com.au/",
+  "browserOptions": {
+    "width": 1280,
+    "disableJS": false,
+    "adBlocker": true,
+    "gdprBlocker": true,
+    "delay": 0,
+    "screenshot": false
+  },
+  "autoDetect": true,
+  "template": {
+    "raw": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/img[1]\n  - /html[1]/body[1]/div[5]\n  - /html[1]/body[1]/main[1]/div[1]/div[1]\n  /html[1]/body[1]/main[1]/div[1]/div[2]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[1]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[2]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[3]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[4]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[5]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[6]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[7]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[8]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[9]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[10]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[11]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[12]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[13]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[14]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[15]\n  - /html[1]/body[1]/main[1]/div[1]/div[2]/div[16]\n  /html[1]/body[1]/div[6]\n  - /html[1]/body[1]/div[6]/footer[1]/div[2]\n  - /html[1]/body[1]/div[6]/footer[1]/div[3]\n  - /html[1]/body[1]/div[6]/footer[1]/div[4]",
+    "hash": -1544366102
+  },
+  "pageHeight": 5828,
+  "mapping": [
+    {
+      "id": "nav-1",
+      "path": "/nav",
+      "sections": [
+        {
+          "id": "nav-1-1",
+          "blocks": [
+            {
+              "id": "box-id-364474671",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 500,
+              "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/img[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 1,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": -21,
+              "mapping": "header",
+              "customBlockName": "aiheader-govnk7-364474671"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
