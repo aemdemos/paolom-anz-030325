@@ -1,0 +1,56 @@
+
+.aicolumns-59pik8-230136579-wrapper > .aicolumns-59pik8-230136579 > div {
+  display: flex; /* Create horizontal layout for the columns */
+  flex-direction: row; /* Ensure sections are side-by-side */
+  gap: 24px; /* Ensure consistent spacing between sections */
+  align-items: flex-start; /* Align sections to the top */
+}
+
+.aicolumns-59pik8-230136579-wrapper > .aicolumns-59pik8-230136579 > div > div {
+  flex: 1; /* Assign equal space to left and middle sections */
+}
+
+.aicolumns-59pik8-230136579-wrapper > .aicolumns-59pik8-230136579 > div > .aicolumns-59pik8-230136579-img-col {
+  flex: 1.75; /* Slightly increase the size of the image section */
+  text-align: center; /* Center-align the image */
+}
+
+.aicolumns-59pik8-230136579-wrapper > .aicolumns-59pik8-230136579 > div > .aicolumns-59pik8-230136579-img-col img {
+  max-width: 100%; /* Ensure the image scales properly */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.aicolumns-59pik8-230136579-wrapper > .aicolumns-59pik8-230136579 > div > div:first-child {
+  display: flex;
+  flex-direction: column; /* Stack badge and heading vertically */
+  align-items: flex-start; /* Align content to the left */
+  gap: 8px; /* Reduce spacing between badge and heading */
+}
+
+.aicolumns-59pik8-230136579-wrapper > .aicolumns-59pik8-230136579 > div > div:nth-child(2) {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: flex-start; /* Align content to the left */
+  gap: 16px; /* Add consistent spacing between elements */
+}
+
+.aicolumns-59pik8-230136579-wrapper > .aicolumns-59pik8-230136579 > div > div:nth-child(2) ul {
+  margin: 0; /* Remove unnecessary margin around list */
+  padding-left: 20px; /* Add padding for bullet alignment */
+}
+
+.aicolumns-59pik8-230136579-wrapper > .aicolumns-59pik8-230136579 > div > div:nth-child(2) .button-container {
+  margin-top: 12px; /* Add spacing above the button */
+  text-align: left; /* Align button to the left */
+}
+
+@media (width <= 900px) {
+  .aicolumns-59pik8-230136579-wrapper > .aicolumns-59pik8-230136579 > div {
+    flex-direction: column; /* Stack sections vertically on smaller screens */
+    gap: 16px; /* Adjust spacing for stacked layout */
+  }
+
+  .aicolumns-59pik8-230136579-wrapper > .aicolumns-59pik8-230136579 > div > div {
+    flex: unset; /* Reset flex properties for stacked layout */
+  }
+}
