@@ -38,7 +38,7 @@
   display: inline; /* Revert buttons to inline text */
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .aicolumns-59pik8-423065796-wrapper > .aicolumns-59pik8-423065796 > div {
     flex-wrap: wrap; /* Allow columns to stack vertically */
   }
