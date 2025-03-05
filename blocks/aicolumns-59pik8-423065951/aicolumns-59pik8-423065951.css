@@ -1,0 +1,43 @@
+
+.aicolumns-59pik8-423065951-container > .aicolumns-59pik8-423065951-wrapper > .block.aicolumns-59pik8-423065951 > div {
+  display: flex;
+  flex-direction: row; /* Ensure cards are side by side */
+  justify-content: space-between; /* Distribute cards evenly horizontally */
+  gap: 32px; /* Adjust spacing between cards */
+}
+
+.aicolumns-59pik8-423065951-container > .aicolumns-59pik8-423065951-wrapper > .block.aicolumns-59pik8-423065951 > div > div {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically inside each card */
+  justify-content: flex-start; /* Align content at the top inside the card */
+  align-items: center; /* Center elements horizontally */
+  text-align: left; /* Left-align text elements */
+  gap: 20px; /* Add vertical spacing between elements */
+}
+
+.aicolumns-59pik8-423065951-container > .aicolumns-59pik8-423065951-wrapper > .block.aicolumns-59pik8-423065951 img {
+  max-width: 70%; /* Resize images proportionally */
+  margin: 0 auto; /* Center images horizontally */
+  display: block; /* Ensure block-level centering */
+}
+
+.aicolumns-59pik8-423065951-container > .aicolumns-59pik8-423065951-wrapper > .block.aicolumns-59pik8-423065951 .button-container {
+  text-align: center; /* Center buttons horizontally */
+}
+
+.aicolumns-59pik8-423065951-container > .aicolumns-59pik8-423065951-wrapper > .block.aicolumns-59pik8-423065951 .button {
+  background-color: transparent; /* Remove background */
+  border: 1px solid var(--link-color); /* Add blue border */
+  color: var(--link-color); /* Set text color to blue */
+  padding: 10px 20px; /* Add padding */
+  border-radius: 4px; /* Add rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-weight: 500; /* Ensure button text stands out */
+}
+
+@media (max-width: 768px) {
+  .aicolumns-59pik8-423065951-container > .aicolumns-59pik8-423065951-wrapper > .block.aicolumns-59pik8-423065951 > div {
+    flex-direction: column; /* Stack cards vertically on smaller screens */
+    gap: 40px; /* Add spacing between stacked cards */
+  }
+}
