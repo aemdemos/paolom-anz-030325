@@ -1,0 +1,50 @@
+
+.aicolumns-59pik8-423065796-wrapper > .aicolumns-59pik8-423065796 > div {
+  display: flex; /* Create a horizontal layout for columns */
+  flex-direction: row; /* Ensure columns are side by side */
+  justify-content: space-between; /* Distribute columns evenly */
+  align-items: flex-start; /* Align content at the top */
+  gap: 32px; /* Add spacing between columns */
+}
+
+.aicolumns-59pik8-423065796-wrapper > .aicolumns-59pik8-423065796 > div > div {
+  flex: 1; /* Ensure all columns take equal space */
+}
+
+.aicolumns-59pik8-423065796-wrapper > .aicolumns-59pik8-423065796 > div > div:first-child {
+  flex: 0.4; /* Reduce the width of the title column */
+  text-align: left; /* Left-align title */
+  display: flex; /* Ensure title and links are in the same column */
+  flex-direction: column; /* Stack title and links vertically */
+  gap: 16px; /* Add spacing between title and links */
+}
+
+.aicolumns-59pik8-423065796-wrapper > .aicolumns-59pik8-423065796 > div > div:nth-child(2),
+.aicolumns-59pik8-423065796-wrapper > .aicolumns-59pik8-423065796 > div > div:nth-child(3),
+.aicolumns-59pik8-423065796-wrapper > .aicolumns-59pik8-423065796 > div > div:nth-child(4) {
+  display: flex; /* Create vertical stacking for links */
+  flex-direction: column; /* Stack links vertically */
+  gap: 8px; /* Reduce spacing between links */
+  text-align: left; /* Align text to the left */
+}
+
+.aicolumns-59pik8-423065796-wrapper > .aicolumns-59pik8-423065796 .button {
+  background: none; /* Remove button styling */
+  border: none;
+  padding: 0;
+  color: var(--link-color); /* Use link color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 0; /* Remove rounded corners */
+  display: inline; /* Revert buttons to inline text */
+}
+
+@media (width <= 768px) {
+  .aicolumns-59pik8-423065796-wrapper > .aicolumns-59pik8-423065796 > div {
+    flex-wrap: wrap; /* Allow columns to stack vertically */
+  }
+
+  .aicolumns-59pik8-423065796-wrapper > .aicolumns-59pik8-423065796 > div > div {
+    flex: 1 0 100%; /* Make each column full-width on small screens */
+    text-align: left; /* Maintain left alignment */
+  }
+}
