@@ -1,0 +1,48 @@
+
+.aicolumns-59pik8-423065951-container > .aicolumns-59pik8-423065951-wrapper > .block.aicolumns-59pik8-423065951 {
+  display: flex;
+  flex-direction: row; /* Arrange columns side by side */
+  gap: 24px; /* Space between columns */
+  justify-content: center; /* Center-align the columns horizontally */
+  align-items: flex-start; /* Align cards consistently at the top */
+}
+
+.aicolumns-59pik8-423065951-container > .aicolumns-59pik8-423065951-wrapper > .block.aicolumns-59pik8-423065951 > div {
+  display: flex;
+  flex-direction: row; /* Ensure elements inside are side by side */
+  gap: 16px; /* Space between elements inside each card */
+  align-items: flex-start; /* Align content at the top */
+  text-align: left; /* Align text inside each card to the left */
+  padding: 20px; /* Add padding around each card */
+  flex: 1; /* Ensure cards share equal width */
+}
+
+.aicolumns-59pik8-423065951-container > .aicolumns-59pik8-423065951-wrapper > .block.aicolumns-59pik8-423065951 img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto; /* Maintain image aspect ratio */
+}
+
+.aicolumns-59pik8-423065951-container > .aicolumns-59pik8-423065951-wrapper > .block.aicolumns-59pik8-423065951 .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white; /* Button background color */
+  color: var(--link-color); /* Button text color */
+  text-decoration: none;
+  border: 1px solid var(--link-color); /* Button border color */
+  border-radius: 5px; /* Rounded corners */
+  font-size: var(--body-font-size-s); /* Font size */
+  font-weight: 500; /* Font weight */
+  transition: all 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.aicolumns-59pik8-423065951-container > .aicolumns-59pik8-423065951-wrapper > .block.aicolumns-59pik8-423065951 .button:hover {
+  background-color: var(--link-color); /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+@media (max-width: 768px) {
+  .aicolumns-59pik8-423065951-container > .aicolumns-59pik8-423065951-wrapper > .block.aicolumns-59pik8-423065951 {
+    flex-direction: column; /* Stack columns vertically on smaller screens */
+    gap: 24px; /* Space between stacked columns */
+  }
+}
