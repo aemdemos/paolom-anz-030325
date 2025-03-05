@@ -8,8 +8,7 @@
 
 .aicolumns-59pik8-423065858 > div:first-child {
   display: flex;
-  flex-direction: row; /* Ensure nested blocks inside text column are side by side */
-  flex-wrap: wrap; /* Allow wrapping for content inside text column */
+  flex-flow: row wrap; /* Ensure nested blocks inside text column are side by side */ /* Allow wrapping for content inside text column */
   flex: 1.5; /* Adjust text column width for better balance */
   gap: 0.5rem; /* Reduce spacing between heading, paragraph, and links */
 }
@@ -42,7 +41,7 @@
   text-decoration: underline; /* Make links look like links */
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .aicolumns-59pik8-423065858-wrapper > .aicolumns-59pik8-423065858 {
     flex-direction: row; /* Maintain horizontal layout on large screens */
     gap: 1.5rem; /* Adjust gap for larger screens */
