@@ -40,7 +40,7 @@
   color: white; /* Change text color on hover */
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .aicolumns-59pik8-423065951-container > .aicolumns-59pik8-423065951-wrapper > .block.aicolumns-59pik8-423065951 {
     flex-direction: column; /* Stack columns vertically on smaller screens */
     gap: 24px; /* Space between stacked columns */
