@@ -48,7 +48,7 @@
   display: block; /* Prevents inline display issues */
 }
 
-@media (max-width: 900px) {
+@media (width <= 900px) {
   .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div {
     flex-direction: column; /* Stacks columns vertically on small screens */
     align-items: center; /* Centers content for smaller screens */
