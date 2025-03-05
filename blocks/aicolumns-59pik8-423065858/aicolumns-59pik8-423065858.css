@@ -1,0 +1,50 @@
+
+.aicolumns-59pik8-423065858-wrapper > .aicolumns-59pik8-423065858 {
+  display: flex;
+  flex-direction: row; /* Ensure columns are side by side */
+  gap: 1.5rem; /* Adjust spacing between text and image columns */
+  align-items: flex-start; /* Align content vertically at the top */
+}
+
+.aicolumns-59pik8-423065858 > div:first-child {
+  display: flex;
+  flex-direction: row; /* Ensure nested blocks inside text column are side by side */
+  flex-wrap: wrap; /* Allow wrapping for content inside text column */
+  flex: 1.5; /* Adjust text column width for better balance */
+  gap: 0.5rem; /* Reduce spacing between heading, paragraph, and links */
+}
+
+.aicolumns-59pik8-423065858 > div > .aicolumns-59pik8-423065858-img-col {
+  flex: 1; /* Adjust image column width for balance */
+  display: flex;
+  justify-content: center; /* Center image horizontally */
+  align-items: flex-start; /* Align image vertically at the top */
+}
+
+.aicolumns-59pik8-423065858-img-col picture {
+  max-width: 100%; /* Ensure image fits within its container */
+  height: auto; /* Maintain image aspect ratio */
+}
+
+.aicolumns-59pik8-423065858-wrapper > .aicolumns-59pik8-423065858 h2 {
+  margin-bottom: 0.25rem; /* Reduce spacing below heading */
+}
+
+.aicolumns-59pik8-423065858-wrapper > .aicolumns-59pik8-423065858 p {
+  margin-bottom: 0.2rem; /* Reduce spacing between paragraphs */
+}
+
+.aicolumns-59pik8-423065858-wrapper > .aicolumns-59pik8-423065858 .button {
+  background: none; /* Remove button background color */
+  padding: 0; /* Remove padding */
+  border-radius: 0; /* Remove rounded corners */
+  color: var(--link-color); /* Restore link color */
+  text-decoration: underline; /* Make links look like links */
+}
+
+@media (min-width: 900px) {
+  .aicolumns-59pik8-423065858-wrapper > .aicolumns-59pik8-423065858 {
+    flex-direction: row; /* Maintain horizontal layout on large screens */
+    gap: 1.5rem; /* Adjust gap for larger screens */
+  }
+}
