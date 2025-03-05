@@ -44,7 +44,7 @@
   text-align: left; /* Align button to the left */
 }
 
-@media (max-width: 900px) {
+@media (width <= 900px) {
   .aicolumns-59pik8-230136579-wrapper > .aicolumns-59pik8-230136579 > div {
     flex-direction: column; /* Stack sections vertically on smaller screens */
     gap: 16px; /* Adjust spacing for stacked layout */
