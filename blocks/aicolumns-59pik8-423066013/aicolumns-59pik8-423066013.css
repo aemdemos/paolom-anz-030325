@@ -1,0 +1,64 @@
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 {
+  display: flex; /* Use flexbox for horizontal alignment */
+  flex-direction: row; /* Position image and content columns side by side */
+  gap: 24px; /* Add spacing between columns */
+  align-items: flex-start; /* Align content column with the top of the image column */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div {
+  flex: 1; /* Ensure both columns share equal space */
+  max-width: 50%; /* Limit each column to half the container's width */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 .aicolumns-59pik8-423066013-img-col img {
+  width: 100%; /* Ensure image fills its column */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div:nth-child(2) p img {
+  max-width: 120px; /* Adjust label size for better proportions */
+  display: block;
+  margin-bottom: 6px; /* Tighten space below the label */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div:nth-child(2) h2 {
+  margin-top: 0; /* Remove unnecessary spacing above heading */
+  margin-bottom: 12px; /* Ensure consistent spacing below heading */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div:nth-child(2) p {
+  margin-bottom: 10px; /* Adjust spacing between paragraphs for compactness */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 .button-container {
+  margin-bottom: 8px; /* Tighten spacing between buttons/links */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 .button-container a {
+  background: none;
+  border: none;
+  color: var(--link-color); /* Match the link color */
+  text-decoration: none;
+  padding: 0; /* Remove button padding */
+  display: inline-block; /* Align links as inline-block elements */
+  text-align: left; /* Ensure links/buttons are left-aligned */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 .button-container a:after {
+  content: '→'; /* Add arrow icon */
+  margin-left: 8px; /* Create spacing between link text and arrow */
+  color: var(--link-color); /* Match arrow color with link color */
+}
+
+@media (max-width: 900px) {
+  .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 {
+    flex-direction: column; /* Stack columns vertically for smaller screens */
+    gap: 16px; /* Adjust spacing between stacked columns */
+    align-items: center; /* Center content for smaller screens */
+  }
+
+  .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div {
+    max-width: 100%; /* Allow full width for both columns in stacked layout */
+  }
+}
