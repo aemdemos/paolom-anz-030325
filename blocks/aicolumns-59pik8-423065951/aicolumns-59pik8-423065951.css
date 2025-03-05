@@ -35,7 +35,7 @@
   font-weight: 500; /* Ensure button text stands out */
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .aicolumns-59pik8-423065951-container > .aicolumns-59pik8-423065951-wrapper > .block.aicolumns-59pik8-423065951 > div {
     flex-direction: column; /* Stack cards vertically on smaller screens */
     gap: 40px; /* Add spacing between stacked cards */
