@@ -1,0 +1,61 @@
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div {
+  display: flex; /* Enables side-by-side layout */
+  flex-direction: row; /* Ensures columns are horizontal */
+  gap: 12px; /* Reduces spacing between image and text columns for tighter alignment */
+  align-items: stretch; /* Ensures both columns stretch to align vertically */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div > .aicolumns-59pik8-423066013-img-col {
+  flex: 1; /* Makes the image column occupy half the width */
+  max-width: 50%; /* Ensures it doesn't exceed half the block's width */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div > div {
+  flex: 1; /* Makes the text column occupy the remaining half */
+  display: flex; /* Enables flexible layout within the text column */
+  flex-direction: column; /* Ensures elements stack vertically */
+  gap: 8px; /* Adds consistent spacing between elements */
+  padding: 16px; /* Provides balanced internal spacing */
+  justify-content: center; /* Vertically centers the content within the text column */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 .badge {
+  display: inline-block;
+  margin-bottom: 4px; /* Tightens space below the badge */
+  font-size: 14px; /* Matches the original badge size */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 h2 {
+  margin-top: 0; /* Removes extra margin above heading */
+  font-size: 1.5rem; /* Ensures the heading matches the original size */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 p {
+  margin: 0; /* Removes excessive margin between paragraphs */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 .button {
+  background-color: var(--link-color);
+  color: var(--background-color);
+  padding: 0.4em 1em; /* Adjusts padding for more compact buttons */
+  font-size: 14px; /* Matches the original button font size */
+  margin-top: 4px; /* Tightens spacing between buttons */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div > .aicolumns-59pik8-423066013-img-col img {
+  width: 100%; /* Ensures the image fills its column */
+  display: block; /* Prevents inline display issues */
+}
+
+@media (width <= 900px) {
+  .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div {
+    flex-direction: column; /* Stacks columns vertically on small screens */
+    align-items: center; /* Centers content for smaller screens */
+  }
+
+  .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div > .aicolumns-59pik8-423066013-img-col,
+  .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div > div {
+    max-width: 100%; /* Ensures both columns take full width */
+  }
+}
