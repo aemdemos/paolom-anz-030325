@@ -45,13 +45,13 @@
   text-align: left; /* Ensure links/buttons are left-aligned */
 }
 
-.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 .button-container a:after {
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 .button-container a::after {
   content: '→'; /* Add arrow icon */
   margin-left: 8px; /* Create spacing between link text and arrow */
   color: var(--link-color); /* Match arrow color with link color */
 }
 
-@media (max-width: 900px) {
+@media (width <= 900px) {
   .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 {
     flex-direction: column; /* Stack columns vertically for smaller screens */
     gap: 16px; /* Adjust spacing between stacked columns */
