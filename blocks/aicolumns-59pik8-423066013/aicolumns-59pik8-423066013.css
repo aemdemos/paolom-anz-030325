@@ -1,61 +1,80 @@
 
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 {
+  display: flex; /* Create a flex container for the block */
+  flex-direction: row; /* Position the image and text columns side by side */
+  align-items: flex-start; /* Align items to the top */
+  gap: 4rem; /* Increase spacing between the image and text columns */
+}
+
 .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div {
-  display: flex; /* Enables side-by-side layout */
-  flex-direction: row; /* Ensures columns are horizontal */
-  gap: 12px; /* Reduces spacing between image and text columns for tighter alignment */
-  align-items: stretch; /* Ensures both columns stretch to align vertically */
+  display: flex; /* Make the main container a flexbox */
+  flex-direction: row; /* Ensure the two second-level divs are side by side */
+  width: 100%; /* Ensure the block spans the full width */
 }
 
 .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div > .aicolumns-59pik8-423066013-img-col {
-  flex: 1; /* Makes the image column occupy half the width */
-  max-width: 50%; /* Ensures it doesn't exceed half the block's width */
+  flex: 1.3; /* Allow the image column to occupy more space for prominence */
+  max-width: 58%; /* Adjust the width proportion for balance */
 }
 
 .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div > div {
-  flex: 1; /* Makes the text column occupy the remaining half */
-  display: flex; /* Enables flexible layout within the text column */
-  flex-direction: column; /* Ensures elements stack vertically */
-  gap: 8px; /* Adds consistent spacing between elements */
-  padding: 16px; /* Provides balanced internal spacing */
-  justify-content: center; /* Vertically centers the content within the text column */
+  flex: 1; /* Allow the text column to occupy the remaining space */
+  max-width: 42%; /* Ensure the text column is slightly wider */
+  display: flex; /* Make the text column a flex container */
+  flex-direction: row; /* Ensure nested elements align side by side where applicable */
+  flex-wrap: wrap; /* Allow wrapping for content that exceeds container width */
+  gap: 1.5rem; /* Adjust spacing between elements */
+  padding: 0 1rem; /* Add padding for consistent alignment */
 }
 
 .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 .badge {
-  display: inline-block;
-  margin-bottom: 4px; /* Tightens space below the badge */
-  font-size: 14px; /* Matches the original badge size */
+  margin-bottom: 2rem; /* Add spacing below the badge */
+  background-color: rgb(0, 102, 204); /* Update badge background color */
+  color: white; /* Ensure badge text is readable */
+  border-radius: 20px; /* Add rounded edges for a pill-shaped badge */
+  padding: 0.5rem 1rem; /* Adjust badge dimensions */
+  font-size: 0.9rem; /* Ensure smaller text size for the badge */
 }
 
 .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 h2 {
-  margin-top: 0; /* Removes extra margin above heading */
-  font-size: 1.5rem; /* Ensures the heading matches the original size */
+  font-size: 2rem; /* Update heading font size for prominence */
+  color: rgb(50, 50, 50); /* Adjust text color for better readability */
+  font-family: "Arial", sans-serif; /* Ensure font consistency */
+  margin-bottom: 1rem; /* Add spacing below the heading */
 }
 
 .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 p {
-  margin: 0; /* Removes excessive margin between paragraphs */
+  font-size: 1rem; /* Adjust paragraph font size */
+  line-height: 1.5; /* Improve readability */
+  color: rgb(50, 50, 50); /* Adjust text color */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 ul {
+  padding-left: 1.5rem; /* Add indentation for bullet points */
+  margin: 0; /* Remove excessive spacing */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 ul li {
+  margin-bottom: 1.5rem; /* Increase spacing between links */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 ul li a {
+  font-size: 1.1rem; /* Increase link font size */
+  color: rgb(0, 102, 204); /* Ensure links are visually distinct */
+  text-decoration: underline; /* Add underline for emphasis */
+}
+
+.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 .button-container {
+  margin-top: 2rem; /* Increase spacing above the button */
+  text-align: center; /* Center the button horizontally */
 }
 
 .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 .button {
-  background-color: var(--link-color);
-  color: var(--background-color);
-  padding: 0.4em 1em; /* Adjusts padding for more compact buttons */
-  font-size: 14px; /* Matches the original button font size */
-  margin-top: 4px; /* Tightens spacing between buttons */
-}
-
-.aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div > .aicolumns-59pik8-423066013-img-col img {
-  width: 100%; /* Ensures the image fills its column */
-  display: block; /* Prevents inline display issues */
-}
-
-@media (width <= 900px) {
-  .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div {
-    flex-direction: column; /* Stacks columns vertically on small screens */
-    align-items: center; /* Centers content for smaller screens */
-  }
-
-  .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div > .aicolumns-59pik8-423066013-img-col,
-  .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 > div > div {
-    max-width: 100%; /* Ensures both columns take full width */
-  }
+  background-color: rgb(0, 102, 204); /* Match button background color */
+  color: white; /* Button text color */
+  font-family: "Arial", sans-serif; /* Ensure font consistency */
+  padding: 0.75rem 2rem; /* Adjust button size */
+  font-size: 1rem; /* Match button font size */
+  border-radius: 5px; /* Add rounded corners */
+  border: none; /* Remove border for cleaner look */
 }
