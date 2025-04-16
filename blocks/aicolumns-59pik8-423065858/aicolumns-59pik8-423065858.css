@@ -2,53 +2,50 @@
 .aicolumns-59pik8-423065858-container > .aicolumns-59pik8-423065858-wrapper > .block.aicolumns-59pik8-423065858 {
   display: flex;
   flex-direction: row; /* Ensure text and image sections are side by side */
-  align-items: flex-start; /* Vertically align text and image at the top */
-  gap: 2rem; /* Add spacing between text and image sections */
+  align-items: center; /* Vertically center text and image */
+  justify-content: space-between; /* Create balanced spacing between sections */
+  gap: 2rem; /* Maintain moderate spacing between text and image sections */
 }
 
 .aicolumns-59pik8-423065858-container > .aicolumns-59pik8-423065858-wrapper > .block.aicolumns-59pik8-423065858 > div:first-child {
-  flex: 2; /* Allocate more space to the text section */
-  display: flex;
-  flex-direction: column; /* Stack text elements vertically */
-  gap: 0.8rem; /* Reduce spacing between heading, paragraphs, and buttons */
+  flex: 1 1 50%; /* Allocate half width for the text section */
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack text content vertically */
+  justify-content: flex-start; /* Align text to the top */
+  padding-right: 15px; /* Add moderate spacing between text and image */
+}
+
+.aicolumns-59pik8-423065858-container > .aicolumns-59pik8-423065858-wrapper > .block.aicolumns-59pik8-423065858 h2 {
+  font-size: 26px; /* Adjust heading size for emphasis */
+  color: #004b84; /* Navy blue color for heading */
+  margin-bottom: 1rem; /* Add spacing below heading */
+}
+
+.aicolumns-59pik8-423065858-container > .aicolumns-59pik8-423065858-wrapper > .block.aicolumns-59pik8-423065858 p {
+  font-size: 16px; /* Maintain font size for text */
+  color: #666666; /* Dark gray text color */
+  margin-bottom: 1rem; /* Maintain spacing between paragraphs */
+}
+
+.aicolumns-59pik8-423065858-container > .aicolumns-59pik8-423065858-wrapper > .block.aicolumns-59pik8-423065858 .button-container a {
+  font-size: 18px; /* Adjust link font size */
+  color: #004b84; /* Navy blue link color */
+  text-decoration: none; /* Remove underline styling */
+  display: inline; /* Keep links styled as inline text */
+  margin-bottom: 0.5rem; /* Adjust spacing below links */
+  background-color: transparent; /* Remove background color */
+  border: none; /* Remove border */
+  padding: 0; /* Remove padding */
 }
 
 .aicolumns-59pik8-423065858-container > .aicolumns-59pik8-423065858-wrapper > .block.aicolumns-59pik8-423065858 > div:nth-child(3) {
-  flex: 1; /* Allocate less space to the image section */
-  display: flex;
-  justify-content: center; /* Horizontally center the image */
-  align-items: flex-start; /* Vertically align the image at the top */
-}
-
-.aicolumns-59pik8-423065858-container > .aicolumns-59pik8-423065858-wrapper h2 {
-  color: #004a96; /* Set heading text color */
-  font-size: 26px; /* Adjust heading font size for prominence */
-  margin-bottom: 0.8rem; /* Reduce spacing below heading */
-}
-
-.aicolumns-59pik8-423065858-container > .aicolumns-59pik8-423065858-wrapper p {
-  color: #5c5c5c; /* Set paragraph text color */
-  font-size: 16px; /* Maintain consistent font size */
-  margin-bottom: 0.5rem; /* Reduce spacing below paragraphs for tighter layout */
-}
-
-.aicolumns-59pik8-423065858-container > .aicolumns-59pik8-423065858-wrapper .button {
-  display: inline-block; /* Ensure buttons are block elements */
-  color: #004a96; /* Set button text color */
-  border: 1px solid #004a96; /* Apply border around buttons */
-  padding: 6px 12px; /* Adjust padding for better proportions */
-  border-radius: 4px; /* Add rounded corners */
-  text-decoration: none; /* Remove underlines */
-  margin-bottom: 0.3rem; /* Adjust spacing below buttons */
-  background-color: white; /* Maintain white background color */
-}
-
-.aicolumns-59pik8-423065858-container > .aicolumns-59pik8-423065858-wrapper .button:hover {
-  background-color: #004a96; /* Change background color on hover */
-  color: #fff; /* Change text color on hover */
+  flex: 1 1 50%; /* Allocate half width for the image section */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Vertically center the image relative to the text */
 }
 
 .aicolumns-59pik8-423065858-container > .aicolumns-59pik8-423065858-wrapper > .block.aicolumns-59pik8-423065858 .aicolumns-59pik8-423065858-img-col picture {
-  max-width: 100%; /* Ensure image scales correctly */
+  max-width: 100%; /* Ensure responsive scaling */
   height: auto; /* Maintain aspect ratio */
 }
