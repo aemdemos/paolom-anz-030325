@@ -1,49 +1,51 @@
 
-.aicolumns-59pik8-423065858-wrapper > .aicolumns-59pik8-423065858 {
+.aicolumns-59pik8-423065858-container > .aicolumns-59pik8-423065858-wrapper > .block.aicolumns-59pik8-423065858 {
   display: flex;
-  flex-direction: row; /* Ensure columns are side by side */
-  gap: 1.5rem; /* Adjust spacing between text and image columns */
-  align-items: flex-start; /* Align content vertically at the top */
+  flex-direction: row; /* Ensure text and image sections are side by side */
+  align-items: center; /* Vertically center text and image */
+  justify-content: space-between; /* Create balanced spacing between sections */
+  gap: 2rem; /* Maintain moderate spacing between text and image sections */
 }
 
-.aicolumns-59pik8-423065858 > div:first-child {
-  display: flex;
-  flex-flow: row wrap; /* Ensure nested blocks inside text column are side by side */ /* Allow wrapping for content inside text column */
-  flex: 1.5; /* Adjust text column width for better balance */
-  gap: 0.5rem; /* Reduce spacing between heading, paragraph, and links */
+.aicolumns-59pik8-423065858-container > .aicolumns-59pik8-423065858-wrapper > .block.aicolumns-59pik8-423065858 > div:first-child {
+  flex: 1 1 50%; /* Allocate half width for the text section */
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack text content vertically */
+  justify-content: flex-start; /* Align text to the top */
+  padding-right: 15px; /* Add moderate spacing between text and image */
 }
 
-.aicolumns-59pik8-423065858 > div > .aicolumns-59pik8-423065858-img-col {
-  flex: 1; /* Adjust image column width for balance */
-  display: flex;
-  justify-content: center; /* Center image horizontally */
-  align-items: flex-start; /* Align image vertically at the top */
+.aicolumns-59pik8-423065858-container > .aicolumns-59pik8-423065858-wrapper > .block.aicolumns-59pik8-423065858 h2 {
+  font-size: 26px; /* Adjust heading size for emphasis */
+  color: #004b84; /* Navy blue color for heading */
+  margin-bottom: 1rem; /* Add spacing below heading */
 }
 
-.aicolumns-59pik8-423065858-img-col picture {
-  max-width: 100%; /* Ensure image fits within its container */
-  height: auto; /* Maintain image aspect ratio */
+.aicolumns-59pik8-423065858-container > .aicolumns-59pik8-423065858-wrapper > .block.aicolumns-59pik8-423065858 p {
+  font-size: 16px; /* Maintain font size for text */
+  color: #666666; /* Dark gray text color */
+  margin-bottom: 1rem; /* Maintain spacing between paragraphs */
 }
 
-.aicolumns-59pik8-423065858-wrapper > .aicolumns-59pik8-423065858 h2 {
-  margin-bottom: 0.25rem; /* Reduce spacing below heading */
-}
-
-.aicolumns-59pik8-423065858-wrapper > .aicolumns-59pik8-423065858 p {
-  margin-bottom: 0.2rem; /* Reduce spacing between paragraphs */
-}
-
-.aicolumns-59pik8-423065858-wrapper > .aicolumns-59pik8-423065858 .button {
-  background: none; /* Remove button background color */
+.aicolumns-59pik8-423065858-container > .aicolumns-59pik8-423065858-wrapper > .block.aicolumns-59pik8-423065858 .button-container a {
+  font-size: 18px; /* Adjust link font size */
+  color: #004b84; /* Navy blue link color */
+  text-decoration: none; /* Remove underline styling */
+  display: inline; /* Keep links styled as inline text */
+  margin-bottom: 0.5rem; /* Adjust spacing below links */
+  background-color: transparent; /* Remove background color */
+  border: none; /* Remove border */
   padding: 0; /* Remove padding */
-  border-radius: 0; /* Remove rounded corners */
-  color: var(--link-color); /* Restore link color */
-  text-decoration: underline; /* Make links look like links */
 }
 
-@media (width >= 900px) {
-  .aicolumns-59pik8-423065858-wrapper > .aicolumns-59pik8-423065858 {
-    flex-direction: row; /* Maintain horizontal layout on large screens */
-    gap: 1.5rem; /* Adjust gap for larger screens */
-  }
+.aicolumns-59pik8-423065858-container > .aicolumns-59pik8-423065858-wrapper > .block.aicolumns-59pik8-423065858 > div:nth-child(3) {
+  flex: 1 1 50%; /* Allocate half width for the image section */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Vertically center the image relative to the text */
+}
+
+.aicolumns-59pik8-423065858-container > .aicolumns-59pik8-423065858-wrapper > .block.aicolumns-59pik8-423065858 .aicolumns-59pik8-423065858-img-col picture {
+  max-width: 100%; /* Ensure responsive scaling */
+  height: auto; /* Maintain aspect ratio */
 }

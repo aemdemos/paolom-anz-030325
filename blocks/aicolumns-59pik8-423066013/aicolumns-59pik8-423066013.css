@@ -21,15 +21,14 @@
   flex: 1; /* Allow the text column to occupy the remaining space */
   max-width: 42%; /* Ensure the text column is slightly wider */
   display: flex; /* Make the text column a flex container */
-  flex-direction: row; /* Ensure nested elements align side by side where applicable */
-  flex-wrap: wrap; /* Allow wrapping for content that exceeds container width */
+  flex-flow: row wrap; /* Ensure nested elements align side by side where applicable */ /* Allow wrapping for content that exceeds container width */
   gap: 1.5rem; /* Adjust spacing between elements */
   padding: 0 1rem; /* Add padding for consistent alignment */
 }
 
 .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 .badge {
   margin-bottom: 2rem; /* Add spacing below the badge */
-  background-color: rgb(0, 102, 204); /* Update badge background color */
+  background-color: rgb(0 102 204); /* Update badge background color */
   color: white; /* Ensure badge text is readable */
   border-radius: 20px; /* Add rounded edges for a pill-shaped badge */
   padding: 0.5rem 1rem; /* Adjust badge dimensions */
@@ -38,15 +37,15 @@
 
 .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 h2 {
   font-size: 2rem; /* Update heading font size for prominence */
-  color: rgb(50, 50, 50); /* Adjust text color for better readability */
-  font-family: "Arial", sans-serif; /* Ensure font consistency */
+  color: rgb(50 50 50); /* Adjust text color for better readability */
+  font-family: Arial, sans-serif; /* Ensure font consistency */
   margin-bottom: 1rem; /* Add spacing below the heading */
 }
 
 .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 p {
   font-size: 1rem; /* Adjust paragraph font size */
   line-height: 1.5; /* Improve readability */
-  color: rgb(50, 50, 50); /* Adjust text color */
+  color: rgb(50 50 50); /* Adjust text color */
 }
 
 .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 ul {
@@ -60,7 +59,7 @@
 
 .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 ul li a {
   font-size: 1.1rem; /* Increase link font size */
-  color: rgb(0, 102, 204); /* Ensure links are visually distinct */
+  color: rgb(0 102 204); /* Ensure links are visually distinct */
   text-decoration: underline; /* Add underline for emphasis */
 }
 
@@ -70,9 +69,9 @@
 }
 
 .aicolumns-59pik8-423066013-wrapper > .aicolumns-59pik8-423066013 .button {
-  background-color: rgb(0, 102, 204); /* Match button background color */
+  background-color: rgb(0 102 204); /* Match button background color */
   color: white; /* Button text color */
-  font-family: "Arial", sans-serif; /* Ensure font consistency */
+  font-family: Arial, sans-serif; /* Ensure font consistency */
   padding: 0.75rem 2rem; /* Adjust button size */
   font-size: 1rem; /* Match button font size */
   border-radius: 5px; /* Add rounded corners */
